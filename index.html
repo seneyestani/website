@@ -1,7 +1,16 @@
 <!-- Creating a test html webpage -->
 
-<!-- Background color -->
-<body style="background-color:rgb(255, 255, 255);">
+<!-- Solid background color -->
+<! <body style="background-color:rgb(0, 255, 255);">
+<!-- Gradient background color -->
+<style>
+#grad1 {
+  height: 1024px;
+  background-image: linear-gradient(rgb(255, 235, 215), rgb(255, 230, 240));
+  background-size: cover;
+  background-repeat:no-repeat;  }
+</style>
+<html id="grad1"></html>
 
 <!-- Title text and style -->
 <body> <h1 style="color:rgb(10, 10, 160);font-family:arial;">Soroush E. Neyestani</h1> </body>
@@ -15,7 +24,7 @@
   margin: 4px 2px; transition-duration: 0.4s;
   cursor: pointer;  }
 .button1 {
-  background-color: white; color: rgb(10, 10, 160); 
+  background-color: rgba(0, 0, 0, 0); color: rgb(10, 10, 160); 
   border: 2px solid rgb(10, 10, 160);  }
 .button1:hover {
   background-color: rgb(10, 10, 160); color: white;  }
