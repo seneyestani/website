@@ -22,7 +22,8 @@
 
 <!-- Define new color variable -->
 <style>
-:root {--eggplant: rgb(75, 10, 100); --nightnavy: rgb(10, 10, 115);}
+:root {--eggplant: rgb(75, 10, 100); --nightnavy: rgb(10, 10, 115);
+       --nightnavy_pale: rgba(10, 10, 115, 0.3);}
 </style>
 
 <!-- Title text and style -->
@@ -62,13 +63,13 @@
 </body>
 <p style="font-size:6px"> &nbsp;</p>
 
-<!-- Text -->
-
+<!-- Links style -->
 <style>
-a:link, a:visited {color: var(--nightnavy);text-decoration: underline;text-decoration-color: rgba(10, 10, 115 ,0.3);}
-a:hover {color: var(--nightnavy);text-decoration: underline;}
+a:link, a:visited {color:var(--nightnavy); text-decoration:underline; text-decoration-color:var(--nightnavy_pale);}
+a:hover {color:var(--nightnavy); text-decoration:underline;}
 </style>
   
+<!-- Text -->
 <p style="color:var(--eggplant);font-family:arial;font-size:16px;line-height: 2.0;">
 <a href="https://porteratmosgroup.weebly.com/"> Atmospheric Dynamics and Modeling (Porter) Group at UCR </a> <br>
 <a href="https://envisci.ucr.edu/"> Department of Environmental Sciences at UCR </a> <br>
