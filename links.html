@@ -1,57 +1,49 @@
 <!-- Creating a test html webpage -->
 
-<!-- Set page margins -->
-<html style="margin-left:36px;margin-top:36px;
-      margin-bottom:100px;margin-right:36px;">
-<style>
-.content {max-width:620px; margin:auto;}
-</style>  
-
-<div class="content">
-
-<!-- Gradient background color -->
 <style>
 #grad1 {
   height: 600px;
   background-image: linear-gradient(158deg, rgb(245, 250, 255), rgb(255, 255, 240), rgb(248, 255, 247));
   background-size: cover;
   background-repeat:no-repeat;
-  background-attachment: fixed;  }
+  background-attachment: fixed;
+  font-family:arial;
+  margin-left:36px;margin-top:36px;
+  margin-bottom:80px;margin-right:36px;}
 </style>
-<html id="grad1"></html>
+<html id="grad1">
+
+<!-- Set page content at center -->      
+<style> .content {max-width:620px; margin:auto;} </style>  
+<div class="content">
 
 <!-- Define new color variable -->
 <style>
 :root {--eggplant: rgb(75, 10, 100); --nightnavy: rgb(10, 10, 115);
        --nightnavy_pale: rgba(10, 10, 115, 0.3);}
 </style>
-
+      
 <!-- Title text and style -->
-<body> <h1 style="color:var(--eggplant);font-family:arial;">Soroush E. Neyestani</h1> </body>
+<body> <h1 style="color:var(--eggplant);">Soroush E. Neyestani</h1> </body>
 <p style="font-size:2px"> &nbsp;</p>
 
 <!-- Buttons -->
 <style>
 .button {
-  border: none; color: white; padding: 9px 18px;
-  text-align: center; text-decoration: none;
-  display: inline-block; font-size: 16px;
-  margin: 4px 2px; transition-duration: 0.4s;
-  cursor: pointer;  }
+  padding:9px 18px; text-align:center; text-decoration:none;
+  display:inline-block; font-size:16px; margin:4px 2px;
+  transition-duration:0.4s; cursor: pointer;  }
 .button1 {
-  background-color: rgba(0, 0, 0, 0); color: var(--eggplant); 
+  background-color:transparent; color:var(--eggplant); 
   border: 2px solid var(--eggplant);  }
 .button1:hover {
-  background-color: var(--eggplant); color: white;  }
-
+  background-color:var(--eggplant); color:white;  }
 .button_on {
-  border: none; color: white; padding: 9px 18px;
-  text-align: center; text-decoration: none;
-  display: inline-block; font-size: 16px;
-  margin: 4px 2px;
+  padding:9px 18px; text-align:center; text-decoration:none;
+  display:inline-block; font-size:16px; margin:4px 2px;
   box-shadow: 0px 0px 10px 2px var(--nightnavy_pale);  }
 .button_on1 {
-  background-color: rgba(0, 0, 0, 0); color: var(--eggplant); 
+  background-color:transparent; color:var(--eggplant); 
   border: 3px solid var(--eggplant);  }
 </style>
 <body>
