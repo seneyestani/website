@@ -15,8 +15,9 @@
 
 :root {
   --eggplant: rgb(75, 10, 100);
-  --nightnavy: rgb(10, 10, 115);
-  --nightnavy_pale: rgba(10, 10, 115, 0.3);
+  --nightnavy: rgb(7, 7, 124);
+  --eggplant_pale: rgba(75, 10, 100, 0.3);
+  --nightnavy_pale: rgba(7, 7, 124, 0.3);
 }
 
 .button {
@@ -32,11 +33,11 @@
 
 .button1 {
   background-color:transparent;
-  color:var(--eggplant); 
-  border: 2px solid var(--eggplant);
+  color:var(--nightnavy); 
+  border: 2px solid var(--nightnavy);
 }
 .button1:hover {
-  background-color:var(--eggplant);
+  background-color:var(--nightnavy);
   color:white;
 }
 .button_on {
@@ -48,18 +49,18 @@
   margin:4px 2px;
 }
 .button_on1 {
-  background-color:var(--eggplant);
+  background-color:var(--nightnavy);
   color:white;
-  border: 2px solid var(--eggplant);
+  border: 2px solid var(--nightnavy);
 }
 
 a:link, a:visited {
-  color:var(--nightnavy);
+  color:var(--eggplant);
   text-decoration:underline;
-  text-decoration-color:var(--nightnavy_pale);
+  text-decoration-color:var(--eggplant_pale);
 }
 a:hover {
-  color:var(--nightnavy);
+  color:var(--eggplant);
   text-decoration:underline;
 }
 
